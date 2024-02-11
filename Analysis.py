@@ -26,7 +26,7 @@ plt.figure()
 ct.root_locus(C*G)
 
 
-# Choose poles to end up with poles around -5
+# Choose zeros to end up with poles around -5
 z1 = -2.5
 z2 = -7.5
 C = ((s/z1 - 1)*(s/z2 - 1))/(s*(tau*s + 1))
